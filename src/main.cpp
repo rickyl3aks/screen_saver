@@ -11,7 +11,7 @@ int main()
     sf::RectangleShape rect;
     sf::CircleShape circle(50);
     sf::CircleShape triangle(80.f, 3);
-    sf::CircleShape octagon(80.f, 8);
+    sf::CircleShape octagon(60.f, 8);
 
     // rect
     sf::Vector2f rectangle_position(700 / 2, 600 / 2);
@@ -51,7 +51,7 @@ int main()
 
         rectangle_shape.moving_shape_rect(rectangle_position.x, rectangle_position.y, 700, 600, 100, x_rect_velocity, y_rect_velocity);
         circle_shape.moving_shape_circle(circle_position.x, circle_position.y, 700, 600, 100, x_circle_velocity, y_circle_velocity);
-        triangle_shape.moving_shape_triangle(triangle_position.x, triangle_position.y, 700, 600, 100, x_triangle_velocity, y_triangle_velocity);
+        triangle_shape.moving_shape_triangle(triangle_position.x, triangle_position.y, 650, 600, 100, x_triangle_velocity, y_triangle_velocity);
         triangle_shape.moving_shape_octagon(octagon_position.x, octagon_position.y, 700, 600, 130, x_octagon_velocity, y_octagon_velocity);
 
         // set rectangle position
