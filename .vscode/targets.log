@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 30 12:38:29 2022
+# Make data base, printed on Fri Aug  5 11:11:37 2022
 
 # Variables
 
@@ -61,7 +61,7 @@ OLDPWD = /home/ricky/Desktop/web_dev/C++
 # automatic
 %F = $(notdir $%)
 # environment
-NVM_INC = /home/ricky/.nvm/versions/node/v16.15.1/include/node
+NVM_INC = /home/ricky/.nvm/versions/node/v12.22.8/include/node
 # environment
 VSCODE_CODE_CACHE_PATH = /home/ricky/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
@@ -79,7 +79,7 @@ MAKEFLAGS = pqrR
 # makefile
 CURDIR := /home/ricky/Desktop/web_dev/C++/screen_saver
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # automatic
@@ -93,7 +93,7 @@ SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # default
 .SHELLFLAGS := -c
 # environment
-NVM_BIN = /home/ricky/.nvm/versions/node/v16.15.1/bin
+NVM_BIN = /home/ricky/.nvm/versions/node/v12.22.8/bin
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-budgie-desktop:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings
 # automatic
@@ -107,13 +107,13 @@ SNAP_REEXEC =
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 3295
+VSCODE_PID = 30659
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/savage:@/tmp/.ICE-unix/1428,unix/savage:/tmp/.ICE-unix/1428
+SESSION_MANAGER = local/savage:@/tmp/.ICE-unix/1615,unix/savage:/tmp/.ICE-unix/1615
 # automatic
 *F = $(notdir $*)
 # environment
@@ -147,7 +147,7 @@ MAKE = $(MAKE_COMMAND)
 # environment
 SNAP_COOKIE = dExUsaYXG3C7ye02kW1_r6RHw296P7pwG54w9fxMhv_3GVNxzNQa
 # environment
-PATH = /home/ricky/.yarn/bin:/home/ricky/.config/yarn/global/node_modules/.bin:/home/ricky/.nvm/versions/node/v16.15.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/ricky/.yarn/bin:/home/ricky/.config/yarn/global/node_modules/.bin:/home/ricky/.nvm/versions/node/v12.22.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # default
 MAKEFILES := 
 # environment
@@ -213,7 +213,7 @@ EXECUTABLE := screen_saver
 # environment
 LC_MEASUREMENT = en_GB.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 2126
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2394
 # makefile (from 'Makefile', line 2)
 CXX_FLAGS := -Wall -Wextra -std=c++17 -ggdb
 # environment
@@ -237,7 +237,7 @@ LIBRARIES := -lsfml-graphics -lsfml-window -lsfml-system
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-TILIX_ID = 9e81cd79-eb9f-48f3-aa38-a04eb5ae98fd
+TILIX_ID = 58866de3-74d8-498d-ba8f-96a2473a7889
 # environment
 HOME = /home/ricky
 # environment
@@ -296,10 +296,10 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# src (device 66306, inode 9175954): 3 files, no impossibilities.
-# . (device 66306, inode 8917245): 8 files, no impossibilities.
+# src (device 66306, inode 9175954): 4 files, no impossibilities.
+# . (device 66306, inode 8917245): 10 files, no impossibilities.
 
-# 11 files, no impossibilities in 2 directories.
+# 14 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -316,7 +316,7 @@ Makefile:
 
 bin/screen_saver: src/main.cpp
 #  Implicit rule search has not been done.
-#  Last modified 2022-07-30 12:37:02.744351427
+#  Last modified 2022-07-31 18:36:17.77791875
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 20):
@@ -325,7 +325,7 @@ bin/screen_saver: src/main.cpp
 # Not a target:
 src/main.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-30 12:36:25.423656155
+#  Last modified 2022-07-31 18:36:15.337965987
 #  File has been updated.
 #  Successfully updated.
 
@@ -365,12 +365,12 @@ run: clean all
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 18 / storage = 146 B / avg = 8 B
-# current buf: size = 8162 B / used = 146 B / count = 18 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 21 / storage = 169 B / avg = 8 B
+# current buf: size = 8162 B / used = 169 B / count = 21 / avg = 8 B
 
-# strcache performance: lookups = 33 / hit rate = 45%
+# strcache performance: lookups = 36 / hit rate = 41%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=0/33=0%
-# Finished Make data base on Sat Jul 30 12:38:29 2022
+# Load=21/8192=0%, Rehash=0, Collisions=0/36=0%
+# Finished Make data base on Fri Aug  5 11:11:37 2022
 
  
