@@ -2,7 +2,7 @@
 
 A simple screen saver created using [SFML](https://www.sfml-dev.org/)
 
-<div style="text-align:center">
+<div style="text-align:center"> 
 <img src="./src/img/screen-saver.png" style="margin: auto; display: inline-block;" alt="drawing" width="auto" height="200"/>
 </div>
 
